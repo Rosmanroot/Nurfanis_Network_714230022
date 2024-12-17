@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Server Client</title>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1><i class="fas fa-network-wired"></i> Web Server Client <span class="cute-icon">😄</span></h1>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Web Server Access Section -->
+        <section class="card">
+            <h2><i class="fas fa-server"></i> Web Server Access <span class="cute-icon">🌐</span></h2>
+            <p>Masukkan URL untuk mengakses konten dari web server dan lihat keajaibannya!</p>
+            <input type="text" id="url" placeholder="https://example.com">
+            <button onclick="accessWebServer()">
+                <i class="fas fa-paper-plane"></i> Ayo Akses Web Server!
+            </button>
+            <div id="webResponse" class="response-box"></div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Web Server Client</p>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
